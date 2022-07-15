@@ -1,0 +1,41 @@
+h1{
+    color: rgb(17, 143, 0);
+    font-family: Arial;
+    animation: animacao_titulo 1s forwards;
+}
+p, li{
+    font-family: Arial;
+    font-size: 15px;
+}
+ul{
+    list-style: none
+}
+ul li:before {
+    content: '•';
+    margin: 0 10px;
+    color: rgb(17, 143, 0)
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    animation: animacao_list 0.2s forwards;
+}
+
+@keyframes animacao_titulo{
+    from{
+        left: 150px;
+        position: relative;
+    }
+    to{
+        left: 0px;
+        position: relative;
+    }
+}
+@keyframes animacao_list{
+    to{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Meu Site</title>
+</head>
+<header class="cabecalho">
+    <a href="https://www.linkedin.com/in/lucas-vicenti-a49956238/" id="img_perfil" target="_blank"></a>
+    <div class="titulo_pagina">
+        <h1 class="titulo">Olá, seja bem vindo ao meu perfil</h1>
+        <h1 class="subtitulo">Muito obrigado pela visita!</h1>
+    </div>
+</header>
+<body>
+    <section>
+        <div class="sobre_mim">
+            <div class="sobre">
+                <h1 class="nome_sobre">Lucas Vicenti</h1><br>
+                <p class="texto_sobre">
+                    Amante de programação </br> </br>
+                    Formado no curso técnico em informática
+                    no Instituto Federal de Santa Catarina - Campus Gaspar SC
+                    integrado ao Ensino Médio
+                </p> <br> <br>
+            </div>
+            <a href="files/Lucas Vicenti.pdf" target="_blank"><button id="download_cv">CURRICULO</button></a><br><br><br><br>
+<pre>
+<img src="images/java.png" alt="javaIcon" class="img_icon">  <img src="images/js.png" alt="javaScriptIcon" class="img_icon">  <img src="images/html-5.png" alt="HtmlIcon" class="img_icon">  <img src="images/css-3.png" alt="CSSIcon" class="img_icon">  <img src="images/arquivo-php.png" alt="PHPIcon" class="img_icon">  <img src="images/android.png" alt="androidIcon" class="img_icon">
+</pre>
+        </div>
+        <div class="sobre_info">
+            <h1 class="titulo_sobre_info">Informações sobre mim</h1><br>
+            <section class="sessao_sobre_mim">
+                <button class="btn_sobre" onclick="sobre_mim()">Sobre mim</button>
+                <button class="btn_sobre" onclick="repositorios()">Meus repositórios</button>
+                <button class="btn_sobre" onclick="contatos()">Contatos</button>
+            </section><br>
+            <iframe src="sobre_mim.html" frameborder="0" id="iframe"></iframe>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

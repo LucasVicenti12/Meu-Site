@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
+.cabecalho{
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+    height: 25vh;
+    background-color: rgba(17, 143, 0, 0.63);
+}
+#img_perfil{
+    width: 15vw;
+    height: 33vh;
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+    background-color: blueviolet;
+    background-image: url("../images/perfil.jpeg");
+    background-size: 38vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0);
+}
+#img_perfil:hover{
+    animation: img_perfil 0.2s forwards;
+}
+.titulo_pagina{
+    position: relative;
+    top: 10vh;
+    left: 41vw;
+}
+.titulo{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    animation: animacao_titulo 1s forwards;
+}
+.subtitulo{
+    font-family: Arial;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 5vw;
+    animation: animacao_titulo 1s forwards;
+}
+section{
+    display: flex;
+}
+.sobre_mim{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    top: 25vh;
+    text-align: left;
+    left: 2.5vw;
+}
+.texto_sobre{
+    text-align: left;
+    position: relative;
+    left: 1vw;
+    font-family: Arial;
+}
+.nome_sobre{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    color:rgb(17, 143, 0);
+}
+#download_cv{
+    background-color:  rgba(17, 143, 0, 0.63);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2%;
+    border-color: rgba(17, 143, 0, 0);
+    position: relative;
+}
+
+#download_cv:hover{
+    animation: download_cv 0.5s forwards;
+}
+.img_icon{
+    width: 3vw;
+}
+
+.sobre_info{
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+}
+.titulo_sobre_info{
+    font-family: Arial;
+    color: rgb(17, 143, 0);
+}
+.sessao_sobre_mim{
+    display: flex;
+    justify-content: space-around;
+}
+.btn_sobre{
+    font-size: 15px;
+    background-color: rgba(240, 248, 255, 0);
+    border: rgba(255, 255, 255, 0);
+    color: rgb(17, 143, 0);
+}
+.btn_sobre:hover{
+    animation: btn_sobre 1s forwards;
+}
+iframe{
+    width: 60vw;
+    height: 70vh;
+}
+
+@keyframes img_perfil{
+    to{
+        border: 10px solid rgba(0, 153, 255, 0.651);
+    }
+}
+@keyframes download_cv{
+    to{
+        padding: 5%;
+    }
+}
+@keyframes btn_sobre{
+    to{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@keyframes animacao_titulo{
+    from{
+        left: 250px;
+        position: relative;
+    }
+    to{
+        left: 0px;
+        position: relative;
+    }
+}

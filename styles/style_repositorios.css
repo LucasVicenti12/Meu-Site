@@ -1,0 +1,35 @@
+h1{
+    color: rgb(17, 143, 0);
+    font-family: Arial;
+    animation: animacao_titulo 1s forwards;
+}
+p{
+    color: rgb(156, 0, 0);
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    color:rgb(17, 143, 0);
+    font-family: Arial;
+    font-size: 18px;
+}
+a:hover{
+    animation: link_git 1s forwards;
+}
+
+@keyframes link_git{
+    to{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@keyframes animacao_titulo{
+    from{
+        left: 150px;
+        position: relative;
+    }
+    to{
+        left: 0px;
+        position: relative;
+    }
+}
