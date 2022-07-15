@@ -4,4 +4,4 @@ Site foi produzido utiliazando as linguagens HTML (para a documentação), CSS(p
 **Site não responsivo**
 
 Sua visita será muito bem vinda </br>
-<a href="https://lucasvicenti12.github.io/Meu_Site/">https://lucasvicenti12.github.io/Meu_Site/</a>
+<a href="https://lucasvicenti12.github.io/Meu-Site/">https://lucasvicenti12.github.io/Meu-Site/</a>
