@@ -119,6 +119,11 @@ iframe{
     width: 60vw;
     height: 70vh;
 }
+.titulo-conhecimentos{
+    color: rgb(17, 143, 0);
+    font-size: 17px;
+    font-family: Arial;
+}
 
 @keyframes img_perfil{
     to{

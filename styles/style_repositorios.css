@@ -16,6 +16,9 @@ a{
 a:hover{
     animation: link_git 1s forwards;
 }
+img{
+    width: 70vw;
+}
 
 @keyframes link_git{
     to{
