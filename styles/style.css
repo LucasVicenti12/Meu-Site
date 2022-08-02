@@ -18,14 +18,14 @@ body{
     background-color: rgba(17, 143, 0, 0.63);
 }
 #img_perfil{
-    width: 15vw;
-    height: 33vh;
+    min-width: 13em;
+    min-height: 13em;
     position: relative;
-    top: 10vh;
-    left: 2vw;
+    top: 11vh;
+    left: 3vw;
     background-color: blueviolet;
-    background-image: url("../images/perfil.jpeg");
-    background-size: 38vh;
+    background-image: url("../images/foto-perfil.jfif");
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
