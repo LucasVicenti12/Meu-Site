@@ -17,7 +17,26 @@ a:hover{
     animation: link_git 1s forwards;
 }
 img{
-    width: 70vw;
+    width: 60vw;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    animation: imageOpacity 3s infinite;
+}
+.div-projetos{
+    position: relative;
+    left: 10vw;
+    width: 60vw;
+    height: 100vh;
+}
+h2{
+    color: rgb(156, 0, 0);
+    font-family: Arial;
+    font-size: 20px;
+}
+.p-texto{
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
 }
 
 @keyframes link_git{
@@ -34,5 +53,13 @@ img{
     to{
         left: 0px;
         position: relative;
+    }
+}
+@keyframes imageOpacity{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
     }
 }

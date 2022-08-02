@@ -7,12 +7,27 @@
     <link rel="stylesheet" href="styles/style_repositorios.css">
     <title>Document</title>
 </head>
-<body>
+<script type="text/javascript">
+    arrayImages = new Array("images/mainTela_CloneGatry.png", "images/AddTela_CloneGatry.png")
+    function slide1(){
+        document.getElementById('img-id').src=arrayImages[0]
+        setTimeout("slide2()", 3000)
+    }
+    function slide2(){
+        document.getElementById('img-id').src=arrayImages[1]
+        setTimeout("slide1()", 3000)
+    }
+</script>
+<body onLoad="slide1()" >
     <h1>Meus repositórios GitHub</h1>
-    <a href="https://github.com/LucasVicenti12?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub.com/LucasVicenti12</a>
+    <a href="https://github.com/LucasVicenti12?tab=repositories" target="_blank" rel="noopener noreferrer">LucasVicenti12</a>
     <br><br>
     <h1>Projetos</h1>
-    <h2>Clone Gatry</h2>
-    <img src="images/mainTela_CloneGatry.png" alt="tela_principal_Clone_Gatry">
+    <div class="div-projetos">
+        <h2>Clone Gatry</h2>
+        <img id="img-id">
+        <p class="p-texto">Clone do site gatry, fiz este site com intuito de prática e estudo na criação de componentes e criação de api, utilizando node e a biblioteca React para javascript</p>
+        <br><br><br><br><br><br>
+    </div>
 </body>
 </html>
