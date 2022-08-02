@@ -22,21 +22,27 @@ img{
     border-radius: 15px;
     animation: imageOpacity 3s infinite;
 }
+#img-id2{
+    width: 20vw;
+}
 .div-projetos{
     position: relative;
     left: 10vw;
     width: 60vw;
-    height: 100vh;
+    height: 200vh;
+    text-align: center;
 }
 h2{
     color: rgb(156, 0, 0);
     font-family: Arial;
     font-size: 20px;
+    text-align: left;
 }
 .p-texto{
     color: black;
     font-family: Arial;
     font-size: 17px;
+    text-align: left;
 }
 
 @keyframes link_git{

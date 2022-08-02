@@ -7,18 +7,7 @@
     <link rel="stylesheet" href="styles/style_repositorios.css">
     <title>Document</title>
 </head>
-<script type="text/javascript">
-    arrayImages = new Array("images/mainTela_CloneGatry.png", "images/AddTela_CloneGatry.png")
-    function slide1(){
-        document.getElementById('img-id').src=arrayImages[0]
-        setTimeout("slide2()", 3000)
-    }
-    function slide2(){
-        document.getElementById('img-id').src=arrayImages[1]
-        setTimeout("slide1()", 3000)
-    }
-</script>
-<body onLoad="slide1()" >
+<body onLoad="slide1(), slide3()" >
     <h1>Meus repositórios GitHub</h1>
     <a href="https://github.com/LucasVicenti12?tab=repositories" target="_blank" rel="noopener noreferrer">LucasVicenti12</a>
     <br><br>
@@ -27,7 +16,12 @@
         <h2>Clone Gatry</h2>
         <img id="img-id">
         <p class="p-texto">Clone do site gatry, fiz este site com intuito de prática e estudo na criação de componentes e criação de api, utilizando node e a biblioteca React para javascript</p>
-        <br><br><br><br><br><br>
+        <br><br>
+        <h2>Aplicativo para calculo de IMC</h2>
+        <img id="img-id2">
+        <p class="p-texto">Aplicativo feito para android com java, utilizando a IDE AndroidStudio. Este aplicativo foi desenvolvido para a realização de um trabalho para a unidade curricular de Programação para Dispositivos Moveis.</p>
+        <br><br><br><br>
     </div>
+    <script src="repositorios.js"></script>
 </body>
 </html>
